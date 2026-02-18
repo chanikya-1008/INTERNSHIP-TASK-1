@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Explorer Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>🌍 Travel Explorer</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><button id="modeToggle">🌙</button></li>
+    </ul>
+</nav>
+
+<section class="hero" id="home">
+    <div class="slider">
+        <div class="slide active"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+    </div>
+    <div class="hero-text">
+        <h1>Explore The World</h1>
+        <p>Discover breathtaking destinations</p>
+        <button onclick="scrollToDestinations()">Start Exploring</button>
+    </div>
+</section>
+
+<section class="destinations" id="destinations">
+
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg">
+                <h3>Taj Mahal</h3>
+            </div>
+            <div class="card-back">
+                <p>Located in Agra, India. A symbol of eternal love.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg">
+                <h3>Eiffel Tower</h3>
+            </div>
+            <div class="card-back">
+                <p>Iconic Paris landmark and global cultural icon.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Statue_of_Liberty_7.jpg">
+                <h3>Statue of Liberty</h3>
+            </div>
+            <div class="card-back">
+                <p>Gift from France. Symbol of freedom in USA.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/201905_Great_Wall_8185.jpg">
+                <h3>Great Wall</h3>
+            </div>
+            <div class="card-back">
+                <p>Historic defense wall stretching across China.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Travel Explorer Pro</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
